@@ -17,7 +17,7 @@ const KELVIN = 273.15;
 const key = '111a44aa05dabf82efb98b0611aa2e74';
 
 navigator.geolocation.getCurrentPosition((position) => {
-    console.log(position.coords.latitude, position.coords.longitude)
+    // console.log(position.coords.latitude, position.coords.longitude)
     getWeather(position.coords.latitude, position.coords.longitude);
   });
 
