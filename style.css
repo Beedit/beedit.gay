@@ -1,0 +1,56 @@
+body {
+    background-color: #1e1e1e;
+}
+.box {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 20%;
+    width: 30%;
+    margin: 10px;
+    margin-top: -10%;
+    margin-left: -15%;
+
+    background-color: #434343;
+    border-radius: 15px;
+    padding: 10px;
+
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,.8);
+}
+
+.box_title {
+    position: inherit;
+    position: relative;
+    text-align: center;
+    color: #cccccc;
+    font-size: 25pt;
+    font-family: "Ubuntu Mono", sans-serif;
+    font-weight: bold;
+    float: left;
+    padding: 1%;
+}
+
+.box_text {
+    position: inherit;
+    position: relative;
+    text-align: center;
+    color: #cccccc;
+    font-size: 15pt;
+}
+
+.pfp {
+    position: inherit;
+    position: relative;
+    top: 0%;
+    width: 20%;
+    height: auto;
+    float: left;
+    padding: 3%;
+}
+
+.link {
+    position: inherit;
+    position: relative;
+    width: 48px;
+    height: auto;
+}
