@@ -4,9 +4,9 @@ Im using code from [Bento](https://github.com/migueravila/Bento) and [Vanta.js](
 ## To do list
 - [ ] Create own startpage instead of using Bento
 
-- [ ] Create homepage
+- [x] Create homepage
 
-- [ ] Add links for things to it
+- [x] Add links for things to it
 
 ## The "is something broken box"
 - [ ] Yes
