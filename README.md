@@ -7,4 +7,4 @@ Im using code from [Bento](https://github.com/migueravila/Bento) and [Vanta.js](
 - [ ] Create homepage
 
 ## The "is something broken box"
-- [x] Yes
+- [ ] Yes
