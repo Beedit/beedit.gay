@@ -6,5 +6,7 @@ Im using code from [Bento](https://github.com/migueravila/Bento) and [Vanta.js](
 
 - [ ] Create homepage
 
+- [ ] Add links for things to it
+
 ## The "is something broken box"
 - [ ] Yes
