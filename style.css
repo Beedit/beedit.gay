@@ -1,6 +1,14 @@
 body {
     background-color: #1e1e1e;
+    overflow: hidden;
 }
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
 .box {
     position: relative;
     top: 50%;
@@ -15,7 +23,7 @@ body {
     border-radius: 15px;
     padding: 10px;
 
-    box-shadow: 0px 0px 5px 5px rgba(0,0,0,.8);
+    box-shadow: 0px 0px 1vh 1vh rgba(0, 0, 0, 0.5);
 }
 
 .box_title {
@@ -23,7 +31,7 @@ body {
     position: relative;
     text-align: center;
     color: #cccccc;
-    font-size: 25pt;
+    font-size: 4.4vh;
     font-family: "Ubuntu Mono", sans-serif;
     font-weight: bold;
     float: left;
@@ -35,7 +43,14 @@ body {
     position: relative;
     text-align: center;
     color: #cccccc;
-    font-size: 15pt;
+    font-size: 2.2vh;
+    font-weight: normal;
+}
+
+.pronouns {
+    color: #ffb9e7;
+    font-family: inherit;
+    font-size: 12pt;
 }
 
 .pfp {
