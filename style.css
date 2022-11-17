@@ -28,44 +28,59 @@ body {
 
 .box_title {
     position: inherit;
-    position: relative;
     text-align: center;
     color: #cccccc;
-    font-size: 4.4vh;
-    font-family: "Ubuntu Mono", sans-serif;
+    font-size: 2vw;
+    font-family: "Ubuntu", sans-serif;
     font-weight: bold;
     float: left;
-    padding: 1%;
+    padding: 2%;
+    margin-left: 15%;
 }
 
 .box_text {
     position: inherit;
     position: relative;
-    text-align: center;
+    text-align: right;
     color: #cccccc;
-    font-size: 2.2vh;
+    font-size: 1vw;
     font-weight: normal;
 }
 
 .pronouns {
     color: #ffb9e7;
     font-family: inherit;
-    font-size: 12pt;
+    font-size: 0.5vw;
 }
 
 .pfp {
     position: inherit;
-    position: relative;
-    top: 0%;
-    width: 20%;
-    height: auto;
+    top: 1%;
+    left: 5%;
+    max-width: 15%;
+    max-height: auto;
     float: left;
     padding: 3%;
 }
 
 .link {
     position: inherit;
-    position: relative;
-    width: 48px;
-    height: auto;
+    align-content: left;
+    max-width: 20%;
+    max-height: auto;
+    left:12%;
+    padding: 10%;
+}
+@media only screen and (max-width: 1200px) {
+    .link {
+        max-width: 24px;
+        max-height: auto;
+    }
+}
+.swal-modal {
+    background-color: #111111;
+}
+.swal-text {
+    color: #cccccc;
+    font-family: "Ubuntu", sans-serif;
 }
