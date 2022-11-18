@@ -1,27 +1,72 @@
+* {
+    box-sizing: border-box;
+    color: #cccccc;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+}
+
 body{
     background-color: #1c1c1c;
 }
-.box1{
-    position: fixed;
-    background-color: #2f2f2f;
-    border-radius: 15px;
-    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
-    height: 40%;
-    left: 35%;
-    margin: 10px;
-    margin-left: -12.5%;
-    top: 50%;
-    width: 25%;
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1.5rem;
+    margin-inline: auto;
 }
-.box2{
-    position: fixed;
-    background-color: #2f2f2f;
-    border-radius: 15px;
-    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
-    height: 40%;
-    left: 65%;
-    margin: 10px;
-    margin-left: -12.5%;
-    top: 50%;
-    width: 25%;
+
+.clock {
+    grid-column: span 3;
+    text-align: center;
+    font-size: 8rem;
+    padding: 7rem;
 }
+
+.timetable {
+    position: inherit;
+    grid-column: span 1;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 38%;
+}
+
+.box {
+    background-color: #2f2f2f;
+    grid-column-start: 2;
+    width: 25em;
+    height: 30em;
+    box-shadow: 0px 0px 1vh 1vh rgba(0, 0, 0, 0.2);
+    border-radius: 15px;    
+}
+
+.left-box{
+    grid-column-start: 2;
+}
+.right-box{
+    grid-column-start: 4;
+}
+.top-box-padding{
+    padding-top: 2rem;
+}
+
+.box-link{
+    position: relative;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1vh;
+    background: auto;
+    width: 30%;
+    left: 35%
+}
+
+.box-link:hover {
+    background-color: #ffb9e7;
+    width: 30%;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    transform: translateY(-0.2rem);
+}
+
