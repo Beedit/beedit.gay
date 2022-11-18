@@ -1,0 +1,27 @@
+body{
+    background-color: #1c1c1c;
+}
+.box1{
+    position: fixed;
+    background-color: #2f2f2f;
+    border-radius: 15px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
+    height: 40%;
+    left: 35%;
+    margin: 10px;
+    margin-left: -12.5%;
+    top: 50%;
+    width: 25%;
+}
+.box2{
+    position: fixed;
+    background-color: #2f2f2f;
+    border-radius: 15px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
+    height: 40%;
+    left: 65%;
+    margin: 10px;
+    margin-left: -12.5%;
+    top: 50%;
+    width: 25%;
+}
