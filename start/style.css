@@ -48,7 +48,7 @@ body{
     grid-column-start: 4;
 }
 .top-box-padding{
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 .box-link{
@@ -56,15 +56,15 @@ body{
     text-align: center;
     font-size: 1.25rem;
     font-weight: bold;
-    padding: 1vh;
+    padding: 1.25vh;
     background: auto;
-    width: 30%;
+    width: 35%;
     left: 35%
 }
 
 .box-link:hover {
     background-color: #ffb9e7;
-    width: 30%;
+    width: 35%;
     box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
     border-radius: 5px;
     transform: translateY(-0.2rem);
