@@ -6,7 +6,7 @@ Im using code from [Bento](https://github.com/migueravila/Bento) and [Vanta.js](
 
 - [x] Add links for things to it
 
-- [ ] Create own startpage instead of using Bento
+- [x] Create own startpage instead of using Bento
 
 ## The "is something broken box"
 - [ ] Yes
