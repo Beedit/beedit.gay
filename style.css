@@ -1,6 +1,14 @@
 body {
     background-color: #1e1e1e;
     overflow: hidden;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-gap: 1rem; */
+    margin-inline: auto;
 }
 
 .background {
@@ -15,7 +23,7 @@ body {
     position: relative;
     top: 50%;
     left: 50%;
-    height: 20%;
+    height: 22%;
     width: 30%;
     margin: 10px;
     margin-top: -7%;
@@ -29,55 +37,71 @@ body {
 }
 
 .box_title {
+    grid-column-start: 3;
+    grid-column: span 3;
     position: inherit;
     text-align: center;
     color: #cccccc;
     font-size: 2vw;
     font-family: "Ubuntu", sans-serif;
     font-weight: bold;
-    float: left;
-    padding: 2%;
-    margin-left: 15%;
+    padding-top: 1%;
 }
 
 .box_text {
-    position: inherit;
-    position: relative;
-    text-align: right;
+    grid-column-start: 3;
+    grid-column: span 3;
+    text-align: center;
     color: #cccccc;
     font-size: 1vw;
     font-weight: normal;
 }
 
 .pronouns {
+    text-align: center;
+    grid-column: span 3;
+    grid-column-start: 4;
     color: #ffb9e7;
-    font-family: inherit;
     font-size: 0.8vw;
 }
 
 .pfp {
-    position: inherit;
-    top: 7%;
-    left: 5%;
-    max-width: 15%;
-    max-height: auto;
-    float: left;
-    padding: 3%;
+    display: block;
+    margin-left: 25%;
+    margin-right: 75%;
+    grid-row: span 4;
+    grid-column: span 2;
+    padding: 0.5rem;
+    width: 45%;
+    height: auto;
 }
 
 .link {
-    position: inherit;
-    align-content: left;
-    max-width: 20%;
-    max-height: auto;
-    left:12%;
+    align-content: center;
+    max-width: 50%;
     padding: 10%;
 }
-@media only screen and (max-width: 1200px) {
-    .link {
-        max-width: 24px;
-        max-height: auto;
-    }
+#link1 {
+    grid-column-start: 3;
+}
+#link2 {
+    grid-column-start: 5;
+}
+
+.flag {
+    position: absolute;
+    left: 100%;
+    margin-left: -4vw;
+    margin-top: 1vw;
+    font-size: 3vw;
+}
+
+.apology {
+    font-size: 1vw;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    text-align: center;
+    color: #cccccc;
 }
 .swal-modal {
     background-color: #111111;

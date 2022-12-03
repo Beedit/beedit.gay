@@ -19,15 +19,16 @@
 
 <!-- Content -->
 <div class="background" id="vanta-background">
+    <div class="flag" id="flag" onclick="change()">🇬🇧</div>
     <div class="box">
-        <img class="pfp" src="egg.png">
-        <div class="box_title">
-            Hi! I'm beedit.
-            <br>
-            <div class="pronouns">(she/her)</div>
-            <div class="box_text">You can links for my stuff here.</div>
-            <a href="https://github.com/beedit"> <img src="https://cdn.simpleicons.org/github" class="link"></a>
-            <a onclick="swal('beedit#5520')" href="#"> <img src="https://cdn.simpleicons.org/discord" class="link"></a>
+        <div class="grid-container">
+            <img class="pfp" src="egg.png"> 
+            <div class="box_title" id="box_title">Hi! I'm beedit.</div>
+            <div class="pronouns" id="pronouns">(she/her)</div>
+            <div class="box_text" id="text">You can links for my stuff here.</div>
+            <div id="link1" class="link"><a href="https://github.com/beedit"><img src="https://cdn.simpleicons.org/github"></a></div>
+            <div id="link2" class="link"><a onclick="swal('beedit#5520')" href="#"> <img src="https://cdn.simpleicons.org/discord"></a></div>
+            <div class="apology" id="apology"></div>
         </div>
     </div>
 </div>
