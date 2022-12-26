@@ -6,4 +6,4 @@ Im using [Vanta.js](https://www.vantajs.com) for the background of my homepage.
 
 - [x] Add links for things to it
 
-- [x] Create own startpage instead of using Bento
+- [x] Create own startpage instead of using [Bento](https://github.com/migueravila/Bento)
