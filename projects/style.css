@@ -5,7 +5,6 @@
 
 body {
     background-color: #1e1e1e;
-    overflow: hidden;
 }
 
 a {
@@ -17,7 +16,7 @@ h1 {
 }
 
 .button-home {
-    position:absolute;
+    position: fixed;
     top: 1%;
     right: 1%;
     background-color: #434343;
@@ -47,7 +46,7 @@ h1 {
 .project-box-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
+    /* grid-gap: 1rem; */
     margin: 1%;
 }
 
@@ -56,6 +55,7 @@ h1 {
     grid-column: span 2;
     text-align: center;
     font-weight: bold;
+    font-size: 200%;
 }
 
 .project-box-grid-image {
@@ -73,4 +73,5 @@ h1 {
     display: grid;
     grid-column: span 2;
     grid-row: span 2;
+    font-size: 125%;
 }
