@@ -1,0 +1,7 @@
+{
+    "Mute Evasion": {
+        "github-url": "https://github.com/Beedit/Mute-Evasion",
+        "description": "A ChatTriggers module designed to help you evade mutes on Hypixel by using an alt account to send messages for you. This is done automatically by using a ChatTriggers module and a Mineflayer bot. This module is techincally punishment evasion and therefore is bannable on Hypixel. Use at your own risk.",
+        "image": "https://github.com/Beedit/Mute-Evasion/raw/main/images/demo.gif"
+    }
+}

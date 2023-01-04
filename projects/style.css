@@ -1,0 +1,76 @@
+* {
+    font-family: "Ubuntu", sans-serif;
+    color: #cccccc;
+}
+
+body {
+    background-color: #1e1e1e;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button-home {
+    position:absolute;
+    top: 1%;
+    right: 1%;
+    background-color: #434343;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.button-home:hover {
+    box-shadow: 0px 0px 1vh 1vh rgba(0, 0, 0, 0.5);
+}
+
+.main-grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 3%;
+    row-gap: 1rem;
+}
+
+.project-box{
+    position: inherit;
+    padding: 1%;
+    background-color: #434343;
+    border-radius: 15px;
+
+}
+
+.project-box-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin: 1%;
+}
+
+.project-box-grid-title {
+    display: grid;
+    grid-column: span 2;
+    text-align: center;
+    font-weight: bold;
+}
+
+.project-box-grid-image {
+    display: grid;
+    grid-row: span 3;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.project-box-grid-text {
+    display: grid;
+    grid-column: span 2;
+    grid-row: span 2;
+}
