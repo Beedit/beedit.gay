@@ -46,8 +46,13 @@ h1 {
 .project-box-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-gap: 1rem; */
     margin: 1%;
+}
+
+@media screen and (max-width: 800px) {
+    .project-box-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 .project-box-grid-title {
