@@ -1,0 +1,13 @@
+name = "3D Placeable Food"
+filename = "3dplaceable food -1.2.0 1.20.1 fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MFgnFY8Z/versions/b0W9ht5X/3dplaceable%20food%20-1.2.0%201.20.1%20fabric.jar"
+hash-format = "sha1"
+hash = "bfc3dae9e1bd52d95efe70562179fcb5e79fef3f"
+
+[update]
+[update.modrinth]
+mod-id = "MFgnFY8Z"
+version = "b0W9ht5X"
